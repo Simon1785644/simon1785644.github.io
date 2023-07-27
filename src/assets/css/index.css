@@ -1,0 +1,122 @@
+nav a {
+  color: Bisque;
+  display: block; /* 讓 <a> 填滿 <li> */
+  margin: 0 20px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-family: 'Noto Sans CJK TC';
+}
+  
+nav > ul {
+  background-color:lightskyblue;
+  list-style: none;   /* 移除項目符號 */
+  margin: 0;
+  padding: 0;
+}
+  
+/* 滑鼠移到 <a> 時變成淺底暗色 */
+nav a:hover {
+  background-color: darkturquoise;
+  color: Azure;
+  text-decoration: none;  /* 移除超連結底線 */
+}
+  
+/* 選單列項目並排&靠左對齊 */
+.flex-nav {
+  display: flex;
+  justify-content: left;
+  border-radius: 30px;
+}
+
+html {
+  background-color: black;
+  font-size: 24px;
+  font-family: 'Noto Sans CJK TC';
+}
+
+.Header {
+  background-color:#1569C7;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  /*padding: 0 0 20px 20px;*/
+  /*border: 5px solid black;*/
+  background-color:#edf0f5;
+  font-family: 'Noto Sans TC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  background-color:antiquewhite;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: CornflowerBlue;
+  text-shadow: 1px 1px 7px gray;
+}
+
+li {
+  color: black;
+}
+
+h1 {
+  color: darkcyan;
+  margin: 0;
+  padding: 20px 0;
+}
+
+h2 {
+  color: YellowGreen;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h3 {
+  color: MediumSeaGreen;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h4 {
+  color: Brown;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h5 {
+  color: Coral;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h6 {
+  color: BurlyWood;
+  font-size: .67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer {
+  color: BurlyWood;
+  background-color:#003366;
+}
